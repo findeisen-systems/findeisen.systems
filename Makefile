@@ -1,6 +1,15 @@
 all:
-	rsync -avr --exclude=Makefile --exclude=.git --exclude=.gitignore --delete-excluded ./ d.systemchaos.org:/var/www/fonion.net/www/htdocs/
+	make build
+	mkdir ./_site/.well-known
+	rsync -avr --delete ./_site/ fonion.net:/var/www/fonion.net/www/htdocs/
+	make release
+
+build:
+	jekyll b
 
 run:
-	python3 -m http.server
+	jekyll s
+
+release:
+	rsync -avr --delete ./_site/ fonion.net:/var/www/fonion.net/htdocs/
 

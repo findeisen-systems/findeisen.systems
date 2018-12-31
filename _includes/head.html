@@ -1,0 +1,10 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="Johannes Findeisen">
+  <title>{{ site.title }} - {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/fonion.css" rel="stylesheet" type="text/css">
+</head>

@@ -1,11 +1,16 @@
 @font-face {
-    font-family: 'bungee_regularregular';
-    src: url('../fonts/bungee_regular_macroman/Bungee-Regular-webfont.woff') format('woff');
+  font-family: 'BungeeRegular';
+  src: url('/fonts/bungee_regular_macroman/Bungee-Regular-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('/fonts/open-sans_regular.woff') format('woff');
 }
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'OpenSansRegular';
 }
 
 p {
@@ -110,10 +115,8 @@ img::-moz-selection {
   color: white;
   border: 0;
   background-color: #fed136;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: sans-serif;
 }
-
-
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #fec503;
@@ -125,14 +128,12 @@ img::-moz-selection {
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: sans-serif;
 }
 
 #mainNav .navbar-brand {
   color: #fed136;
-  font-family: 'bungee_regularregular';
-  font-style: italic;
-
+  font-family: 'BungeeRegular';
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -170,7 +171,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/bandwidth-close-up-computer-1148820.jpg");
+  background-image: url("/img/bg1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -178,8 +179,10 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /*padding-top: 10px;
+  padding-bottom: 10px;*/
+    padding-top: 300px;
+    padding-bottom: 200px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -402,7 +405,6 @@ header.masthead .intro-text .intro-key {
   transform: rotate(90deg);
   background-color: #212529;
 }
-
 .timeline {
   position: relative;
   padding: 0;

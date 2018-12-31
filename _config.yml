@@ -1,0 +1,31 @@
+title: Fonion.net
+email: security@fonion.net
+description: Beratung und Dienstleistungen für sichere mobile Kommunikation u.A. verschlüsselte Email, SMS, Messaging und Chat basierend auf Linux und Android.
+url: "https://fonion.net"
+
+defaults:
+  - scope:
+      path: "files/*"
+    values:
+      image: true
+
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+#  - jekyll-paginate
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - files
+
+#paginate:      5
+#paginate_path: "/:num/"
+permalink:     /:year/:month/:day/:title/
+
+tocTopTag: h2
+anchorPrefix: ""
+showToggleButton: false
+contentsLabel: Inhalt
+
