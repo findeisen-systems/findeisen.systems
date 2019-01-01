@@ -405,6 +405,21 @@ header.masthead .intro-text .intro-key {
   transform: rotate(90deg);
   background-color: #212529;
 }
+
+.technology-image {
+  position: relative;
+  z-index: 100;
+  left: 0;
+  width: 140px;
+  height: 140px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+}
+
 .timeline {
   position: relative;
   padding: 0;
