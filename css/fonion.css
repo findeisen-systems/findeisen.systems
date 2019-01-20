@@ -5,17 +5,17 @@
 
 @font-face {
   font-family: 'MontserratRegular';
-  src: url('/fonts/Montserrat-Regular.otf');
+  src: url('/fonts/Montserrat-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'MontserratBold';
-  src: url('/fonts/Montserrat-Bold.otf');
+  src: url('/fonts/Montserrat-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'MontserratItalic';
-  src: url('/fonts/Montserrat-Italic.otf');
+  src: url('/fonts/Montserrat-Italic.woff') format('woff');
 }
 
 body {
