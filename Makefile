@@ -1,16 +1,16 @@
 all:
 	make build
-	mkdir ./_site/.well-known
-	cp -R ./files ./_site/
-	rsync -avr --delete ./_site/ fonion.net:/var/www/fonion.net/www/htdocs/
 	make release
 
 build:
-	jekyll b
+	mkdir -p ./_site/.well-known
+	#cp -R ./files ./_site/
+	jekyll b --incremental
 
 run:
-	jekyll s
+	#make build
+	jekyll s --incremental
 
 release:
-	rsync -avr --delete ./_site/ fonion.net:/var/www/fonion.net/htdocs/
+	rsync -avr --delete ./_site/ fonion.net:/var/www/fonion.net/www/htdocs/
 
