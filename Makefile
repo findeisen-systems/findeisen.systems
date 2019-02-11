@@ -12,5 +12,5 @@ run:
 	jekyll s --incremental
 
 release:
-	rsync -avr --delete ./_site/ fonion.net:/var/www/fonion.net/www/htdocs/
+	rsync -avr --delete ./_site/ com.puting.de:/var/www/puting.de/com/htdocs/
 
