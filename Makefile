@@ -12,5 +12,5 @@ run:
 	jekyll s --incremental
 
 release:
-	rsync -avr --delete ./_site/ com.puting.de:/var/www/puting.de/com/htdocs/
+	rsync -avr --delete ./_site/ findeisen.systems:/var/www/findeisen.systems/www/htdocs/
 
