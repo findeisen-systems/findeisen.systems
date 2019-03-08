@@ -145,7 +145,6 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   color: #fed136;
   font-family: 'BungeeRegular';
-  width: 100px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
