@@ -121,6 +121,7 @@ img::-moz-selection {
   font-size: 12px;
   right: 0;
   padding: 13px;
+  margin-right: 28px;
   text-transform: uppercase;
   color: white;
   border: 0;
@@ -144,6 +145,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   color: #fed136;
   font-family: 'BungeeRegular';
+  width: 100px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -189,9 +191,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  /*padding-top: 10px;
-  padding-bottom: 10px;*/
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
 }
 
