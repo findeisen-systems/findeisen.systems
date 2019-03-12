@@ -3,7 +3,6 @@ all:
 	make release
 
 build:
-	mkdir -p ./_site/.well-known
 	#cp -R ./files ./_site/
 	jekyll b --incremental
 
