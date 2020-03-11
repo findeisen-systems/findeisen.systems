@@ -4,5 +4,8 @@ title: Hardcore IT Consulting für Linux, Security, Android, SIEM, Monitoring, I
 noToc: true
 ---
 
+{% include service.html %}
+{% include references.html %}
+{% include contact.html %}
 
 
